@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: get-started/quick-start-ontap-update.html 
+keywords: get started with ontap update, ontap update quick start, get started with bluexp software updates, software update quick start guide 
+summary: 开始无缝快速地更新ONTAP存储系统。 
+---
+= 快速开始使用BlueXP  软件更新ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下面概述了开始使用BlueXP  软件更新所需的步骤。每个步骤中的链接将转到一个页面，其中提供了更多详细信息。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看前提条件
+[role="quick-margin-para"]
+link:../get-started/prerequisites-ontap-update.html["确保您的环境满足这些要求"](英文)
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 更新ONTAP存储系统
+[role="quick-margin-para"]
+您应完成所有任务以更新ONTAP存储系统。
+
+[role="quick-margin-list"]
+* link:../ONTAP/choose-ontap-910-later.html["确定ONTAP目标版本"](英文)
+* link:../ONTAP/fix-blockers-warnings.html["修复并确认阻止程序"](英文)
+* link:../ONTAP/update-storage-system.html["完成ONTAP存储系统更新"](英文)
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 下一步是什么？
+[role="quick-margin-para"]
+更新ONTAP存储系统后、接下来可以执行以下操作。
+
+[role="quick-margin-para"]
+link:../ONTAP/validate-storage-system-update.html["验证ONTAP存储系统更新的状态"](英文)

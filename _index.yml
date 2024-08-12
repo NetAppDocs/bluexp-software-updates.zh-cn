@@ -1,0 +1,36 @@
+---
+indexpage:
+  title: BlueXP  软件更新文档
+  keywords: software updates, update ONTAP, upgrade ONTAP, ONTAP version, ONTAP 9.8
+  lead: 通过BlueXP  软件更新服务、客户可以简化ONTAP更新。它可以自动执行评估、规划和执行流程。
+  tiles:
+  - title: 开始使用
+    links:
+    - title: 了解BlueXP  软件更新
+      url: "/get-started/software-updates.html"
+    - title: BlueXP  软件更新中的新增功能
+      url: "/release-notes/whats-new.html"
+    - title: 快速入门
+      url: "/get-started/quick-start-ontap-update.html"
+    - title: 前提条件
+      url: "/get-started/prerequisites-ontap-update.html"
+    - title: 登录到BlueXP  软件更新
+      url: "/get-started/login-software-updates.html"
+    - title: 常见问题解答
+      url: "/get-started/software-updates-faq.html"
+  - title: 利用BlueXP经济高效
+    links:
+    - title: 选择ONTAP目标版本9.10或更高版本
+      url: "/ONTAP/choose-ontap-910-later.html"
+    - title: 修复并确认ONTAP阻止程序
+      url: "/ONTAP/fix-blockers-warnings.html"
+    - title: 完成ONTAP存储系统更新
+      url: "/ONTAP/update-storage-system.html"
+    - title: 验证ONTAP存储系统更新的状态
+      url: "/ONTAP/validate-storage-system-update.html"
+  - title: 博客和社区
+    links:
+    - title: NetApp 社区
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: 云网络研讨会
+      url: https://bluexp.netapp.com/events
