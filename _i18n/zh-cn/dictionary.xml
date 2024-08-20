@@ -100,7 +100,6 @@
   <block id="fb1a576523e6d98a2637113b1f2ddc77" category="paragraph">*为什么在更新集群的ONTAP版本后，软件更新信息板中仍会显示旧版本的ONTAP？*</block>
   <block id="cd7a9b3aab856990de5540e448854d37" category="paragraph">*为什么我看到不同的屏幕显示不同的更新？*</block>
   <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="inline-link-macro">支持的 ONTAP 系统</block>
-  <block id="9acf8bc64d0336944e98a10c4b868c28" category="paragraph">这是由于当前ONTAP版本以及BlueXP  Connector不适用于集群。BlueXP  Connector在BlueXP  中执行ONTAP更新、不需要您退出BlueXP  进行更新。有关不同ONTAP版本的ONTAP更新过程的信息，请参见 <block ref="9368a1ed7fc94ef1fa0dd54dc646113b" category="inline-link-macro-rx"></block>。</block>
   <block id="301053661b8bcb5b62150d8c97038d47" category="paragraph">*发现集群需要什么？*</block>
   <block id="78a404dc6fcc27f5f6c067b96fa1a926" category="paragraph">要对所需集群执行ONTAP更新、您需要ONTAP集群IP和用于连接到集群的管理员凭据。在集群发现过程中、您需要提供这些详细信息、才能自动执行ONTAP更新。</block>
   <block id="eae99a51790faa39ba0454fb4f00a5b8" category="summary">使用BlueXP  软件更新无缝更新ONTAP存储系统、以利用新增功能和增强功能。</block>
@@ -337,4 +336,5 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
+  <block id="e9286f8f31c5b4b57dc1c4b27396c2bf" category="paragraph">这是由于当前ONTAP版本以及BlueXP  Connector不适用于集群。BlueXP  Connector在BlueXP  中执行ONTAP更新、不需要您退出BlueXP  进行更新。如果您没有BlueXP  Connector、则会重定向到System Manager、并需要重新输入ONTAP集群凭据。有关不同ONTAP版本的ONTAP更新过程的信息，请参见 <block ref="9368a1ed7fc94ef1fa0dd54dc646113b" category="inline-link-macro-rx"></block>。</block>
 </blocks>

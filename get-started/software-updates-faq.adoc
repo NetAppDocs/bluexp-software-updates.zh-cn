@@ -31,7 +31,7 @@ summary: 查看有关BlueXP  软件更新的常见问题解答。
 
 *为什么我看到不同的屏幕显示不同的更新？*
 
-这是由于当前ONTAP版本以及BlueXP  Connector不适用于集群。BlueXP  Connector在BlueXP  中执行ONTAP更新、不需要您退出BlueXP  进行更新。有关不同ONTAP版本的ONTAP更新过程的信息，请参见 link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["支持的 ONTAP 系统"]。
+这是由于当前ONTAP版本以及BlueXP  Connector不适用于集群。BlueXP  Connector在BlueXP  中执行ONTAP更新、不需要您退出BlueXP  进行更新。如果您没有BlueXP  Connector、则会重定向到System Manager、并需要重新输入ONTAP集群凭据。有关不同ONTAP版本的ONTAP更新过程的信息，请参见 link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["支持的 ONTAP 系统"]。
 
 *发现集群需要什么？*
 
