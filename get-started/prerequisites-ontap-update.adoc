@@ -15,8 +15,8 @@ summary: 继续ONTAP更新之前、请查看前提条件和要求。
 
 要使用BlueXP  软件更新、应确保您的环境满足所有要求。
 
-* 应具有有效的BlueXP  帐户。
-* 工作环境在BlueXP  中设置。
+* BlueXP  组织可用。
+* 在BlueXP  中设置工作环境。
 * 管理员Privileges可使用System Manager执行软件更新。
 * 执行软件更新时、可以使用所需集群的管理员凭据。
 * 集群中的所有节点都在发送AutoSupport数据。
