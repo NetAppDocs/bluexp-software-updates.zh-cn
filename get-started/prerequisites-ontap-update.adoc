@@ -1,17 +1,17 @@
 ---
 sidebar: sidebar 
 permalink: get-started/prerequisites-ontap-update.html 
-keywords: prerequisites for ontap update, ontap update requirements, ontap update versions 
+keywords: prerequisites for ontap update, ontap update requirements, ontap update versions, prepare for ontap update 
 summary: 继续ONTAP更新之前、请查看前提条件和要求。 
 ---
-= 使用BlueXP  软件更新更新ONTAP的前提条件
+= 准备使用BlueXP  软件更新来更新ONTAP
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-首先验证您的操作环境、登录、网络访问和Web浏览器是否就绪。
+在继续进行ONTAP更新之前、您应查看前提条件和要求。您可以使用BlueXP  软件更新来验证您的操作环境、登录、网络访问和Web浏览器是否就绪。
 
 要使用BlueXP  软件更新、应确保您的环境满足所有要求。
 

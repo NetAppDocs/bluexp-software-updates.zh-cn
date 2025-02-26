@@ -4,22 +4,22 @@ permalink: ONTAP/update-storage-system.html
 keywords: update ontap storage system 
 summary: 更新ONTAP存储系统以利用新增功能和增强功能。 
 ---
-= 完成ONTAP存储系统更新
+= 使用BlueXP  软件更新启动ONTAP更新
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-确定ONTAP目标版本并修复并确认所有阻止程序后、您现在可以完成ONTAP存储系统的更新。
+确定ONTAP目标版本并修复并确认所有阻止程序后、您现在可以启动ONTAP存储系统更新。
 
 .步骤
 . 从BlueXP  左侧导航栏中，选择*运行状况>软件更新*。
 +
 此时将显示需要软件更新的集群列表。
 
-. 确定存储系统的ONTAP目标版本。有关确定ONTAP目标版本的信息，请参见 link:../ONTAP/choose-ontap-910-later.html["选择ONTAP目标版本9.10或更高版本"]。
-. 修复并确认ONTAP阻止程序。有关修复阻塞程序的信息，请参见 link:../ONTAP/fix-blockers-warnings.html["修复并确认ONTAP阻止程序"]。
+. 确定存储系统的ONTAP目标版本。有关确定ONTAP目标版本的信息，请参见 link:../ONTAP/choose-ontap-910-later.html["比较ONTAP版本、了解使用BlueXP  软件更新的优势和风险"]。
+. 修复并确认ONTAP阻止程序。有关修复阻塞程序的信息，请参见 link:../ONTAP/fix-blockers-warnings.html["在ONTAP升级之前、使用BlueXP  软件更新修复所有阻止程序"]。
 . 阅读并接受最终用户许可协议。
 +
 等待检索到ONTAP映像。

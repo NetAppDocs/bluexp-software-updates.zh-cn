@@ -1,17 +1,17 @@
 ---
 sidebar: sidebar 
 permalink: ONTAP/choose-ontap-910-later.html 
-keywords: choose ontap target version, ontap update recommendations, identify ontap target version 
+keywords: choose ontap target version, ontap update recommendations, identify ontap target version, recommended version, benefits and risks or ONTAP version 
 summary: 在升级ONTAP存储系统之前、了解每个ONTAP版本的优势和风险。 
 ---
-= 选择ONTAP目标版本9.10或更高版本
+= 比较ONTAP版本、了解使用BlueXP  软件更新的优势和风险
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-在为存储系统选择ONTAP版本之前、请务必确定ONTAP目标版本的优势并了解与此版本相关的风险。
+在更新存储系统的ONTAP版本之前、比较和了解与ONTAP目标版本相关的优势和风险非常重要。
 
 您可以选择目标版本并将其与当前版本进行比较、以了解在ONTAP上更新到特定版本的优势。您还可以查看将要解决的风险以及在更新到特定版本的ONTAP时会出现的新风险(如果有)。
 

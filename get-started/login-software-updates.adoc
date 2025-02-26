@@ -4,16 +4,16 @@ permalink: get-started/login-software-updates.html
 keywords: bluexp login, software updates log in 
 summary: 登录并访问BlueXP  软件更新服务。 
 ---
-= 访问BlueXP  软件更新
+= 访问BlueXP  软件更新以更新ONTAP
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以通过登录到NetApp BlueXP  来使用BlueXP  软件更新。
+要访问BlueXP  软件更新、必须登录到BlueXP 。
 
-要登录到BlueXP、您可以使用NetApp 支持站点 凭据、也可以使用电子邮件和密码注册NetApp云登录。link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["了解有关登录的更多信息"^](英文)
+要登录、您可以使用NetApp支持站点凭据、也可以使用电子邮件和密码注册NetApp云登录帐户。link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["了解有关登录的更多信息"^](英文)
 
 .步骤
 . 打开Web浏览器并转到 link:https://console.bluexp.netapp.com/["BlueXP控制台"^]。

@@ -4,7 +4,7 @@ permalink: ONTAP/fix-blockers-warnings.html
 keywords: fix ontap blockers and warnings, ontap update precheck, acknowledge warnings 
 summary: 修复ONTAP阻止程序并确认阻止您完成ONTAP更新的警告。 
 ---
-= 修复并确认ONTAP阻止程序
+= 在ONTAP升级之前、使用BlueXP  软件更新修复所有阻止程序
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -20,7 +20,7 @@ summary: 修复ONTAP阻止程序并确认阻止您完成ONTAP更新的警告。
 +
 此时将显示需要软件更新的集群列表。
 
-. 确定存储系统的ONTAP目标版本。有关确定ONTAP目标版本的信息，请参见 link:../ONTAP/choose-ontap-910-later.html["选择ONTAP目标版本9.10或更高版本"]。
+. 确定存储系统的ONTAP目标版本。有关确定ONTAP目标版本的信息，请参见 link:../ONTAP/choose-ontap-910-later.html["比较ONTAP版本、了解使用BlueXP  软件更新的优势和风险"]。
 . 确定ONTAP目标版本后，单击*准备更新*以启动更新过程。
 +
 此时将显示阻止程序和警告列表。

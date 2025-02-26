@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: get-started/software-updates-faq.html 
-keywords: ontap update faq, ontap update frequently asked questions, software updates faq, software updates frequently asked questions 
+keywords: ontap update faq, ontap update frequently asked questions, software updates faq, software updates frequently asked questions, troubleshooting 
 summary: 查看有关BlueXP  软件更新的常见问题解答。 
 ---
 = BlueXP  软件更新的常见问题解答
@@ -11,7 +11,7 @@ summary: 查看有关BlueXP  软件更新的常见问题解答。
 
 
 [role="lead"]
-如果您只是想快速了解问题解答，此常见问题解答会很有帮助。
+如果您想了解有关BlueXP  软件更新的更多信息或需要任何故障排除帮助、可以查看这些问题以获得快速解答。
 
 *什么是BlueXP  软件更新URL？*
 

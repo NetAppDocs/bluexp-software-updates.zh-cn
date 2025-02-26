@@ -11,7 +11,7 @@ summary: 验证ONTAP更新的状态以确定应执行的后续步骤。
 
 
 [role="lead"]
-ONTAP更新过程完成后、您应检查ONTAP更新的状态。
+您可以使用BlueXP  软件更新来验证ONTAP更新的状态。
 
 .步骤
 . 从BlueXP  左侧导航栏中，选择*运行状况>软件更新*。

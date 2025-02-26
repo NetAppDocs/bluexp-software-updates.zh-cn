@@ -2,7 +2,6 @@
 <blocks>
   <block id="f6f16bb8e1efb9727b0dcf9a90373ffb" category="summary">在升级ONTAP存储系统之前、了解每个ONTAP版本的优势和风险。</block>
   <block id="3e01b70f098c97a8e8c6a729636b23d4" category="doc">选择ONTAP目标版本9.10或更高版本</block>
-  <block id="b1a7397c6fa96ca3e42a2fb189b81d51" category="paragraph">在为存储系统选择ONTAP版本之前、请务必确定ONTAP目标版本的优势并了解与此版本相关的风险。</block>
   <block id="0634e55ef28524df4ddd4c1ddfd72bdd" category="paragraph">您可以选择目标版本并将其与当前版本进行比较、以了解在ONTAP上更新到特定版本的优势。您还可以查看将要解决的风险以及在更新到特定版本的ONTAP时会出现的新风险(如果有)。</block>
   <block id="74083ab8069d07080edb25320474b13b" category="admonition">只有在运行ONTAP 9.10或更高版本时、才能使用此功能。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
@@ -24,7 +23,6 @@
   <block id="7d73325ccb71b4870e81c3c8734ba56e" category="paragraph">确定ONTAP存储系统的ONTAP目标版本后、您应修复并确认所有阻止程序、并查看警告、然后再更新ONTAP存储系统。</block>
   <block id="2458f462c36fbeec4b6536099135f298" category="paragraph">必须修复并确认所有阻止程序、以确保软件更新过程无缝。</block>
   <block id="a710a4a4b33a19ce9678b290e8622101" category="paragraph">此时将显示需要软件更新的集群列表。</block>
-  <block id="e11cab9533afda7fed240f31c60b96f3" category="list-text">确定存储系统的ONTAP目标版本。有关确定ONTAP目标版本的信息，请参见 <block ref="538e53c5274334201439b22929ae7c33" category="inline-link-macro-rx"></block>。</block>
   <block id="06cd15ffbdad395f54961af4b4da3f7d" category="list-text">确定ONTAP目标版本后，单击*准备更新*以启动更新过程。</block>
   <block id="921328cf9f5d7f1029ee8f2b5eb6add6" category="paragraph">此时将显示阻止程序和警告列表。</block>
   <block id="0d3e45ea704fa7abdf905562392b0203" category="list-text">选择阻止程序以查看修复阻止程序的说明。</block>
@@ -36,29 +34,22 @@
   <block id="5143d195cc41390e0e4722e37a8b670d" category="list-text">单击*继续更新*以继续更新过程。</block>
   <block id="0fd40a88a795a27afa35dc3e7dbce97c" category="summary">更新ONTAP存储系统以利用新增功能和增强功能。</block>
   <block id="ef54c6082f1b8fb3ea432a9b7cdce377" category="doc">完成ONTAP存储系统更新</block>
-  <block id="4069d368e6b24c7032f0eedc33a1601d" category="paragraph">确定ONTAP目标版本并修复并确认所有阻止程序后、您现在可以完成ONTAP存储系统的更新。</block>
-  <block id="5095c7afe8ce77fcc7b92f22c350fe82" category="list-text">修复并确认ONTAP阻止程序。有关修复阻塞程序的信息，请参见 <block ref="d61905fe2b2d7d79294414b81cd336cb" category="inline-link-macro-rx"></block>。</block>
   <block id="84159d0a25239d2d4573172d023c46e7" category="list-text">阅读并接受最终用户许可协议。</block>
   <block id="7e6935bb4ba08bd2b040fec7140cefe8" category="paragraph">等待检索到ONTAP映像。</block>
   <block id="b707a048aebf6a3d5685827572cc3de1" category="list-text">单击*安装更新*以完成更新过程。</block>
   <block id="2086b43ba817368b623c8b845f4a2c86" category="summary">验证ONTAP更新的状态以确定应执行的后续步骤。</block>
   <block id="2cffa96ea0fb9d5b545b8cc40a61d4a3" category="doc">验证ONTAP存储系统更新的状态</block>
-  <block id="7735ef900b37ebdc5493537c82501786" category="paragraph">ONTAP更新过程完成后、您应检查ONTAP更新的状态。</block>
   <block id="82eb3f6374cb74069e9ac86a78c4c7b7" category="list-text">单击*History*选项卡可查看ONTAP更新的状态。</block>
   <block id="0ca4b31fab05c7c65ce3168c99116299" category="admonition">此集群需要2到3小时才能显示在历史记录选项卡中。</block>
   <block id="f01ff61f665dc565b36723f4f7ba7acb" category="summary">登录并访问BlueXP  软件更新服务。</block>
   <block id="620719f65d1fb1b1420157fab1aa5208" category="doc">访问BlueXP  软件更新</block>
-  <block id="1686b410540845de1f8283165293bd1a" category="paragraph">您可以通过登录到NetApp BlueXP  来使用BlueXP  软件更新。</block>
   <block id="8e917942a77709dfd28c155f42a97553" category="inline-link-macro">了解有关登录的更多信息</block>
-  <block id="315c997f74955c2a02119a24a36df47e" category="paragraph">要登录到BlueXP、您可以使用NetApp 支持站点 凭据、也可以使用电子邮件和密码注册NetApp云登录。<block ref="b81c2771e4fb9546e28e2b4e920d2ca5" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP控制台</block>
   <block id="5d97159a9457a24e7a43d040b2d4b33f" category="list-text">打开Web浏览器并转到 <block ref="046fd603b18837f482287e5ec741e5ed" category="inline-link-macro-rx"></block>。</block>
   <block id="753e3c2055278365db83b605f29d4860" category="paragraph">此时将显示NetApp BlueXP登录页面。</block>
   <block id="ad84736d27b7f84414783598f4ffd0d9" category="list-text">登录到BlueXP。</block>
   <block id="24958f1bc0c9e80abac7daea72c06854" category="list-text">从BlueXP  左侧导航栏中，选择*运行状况&gt;软件更新。*</block>
   <block id="20b41c007263bf3cb834352319595be6" category="summary">继续ONTAP更新之前、请查看前提条件和要求。</block>
-  <block id="c68f0236667091f737bdf862786b96a8" category="doc">使用BlueXP  软件更新更新ONTAP的前提条件</block>
-  <block id="84804abf3404a430e85ae3299587a6b0" category="paragraph">首先验证您的操作环境、登录、网络访问和Web浏览器是否就绪。</block>
   <block id="7efc4f28b854970100677afdf18e3743" category="paragraph">要使用BlueXP  软件更新、应确保您的环境满足所有要求。</block>
   <block id="f79a5712ad4df34137efe352ad13262f" category="list-text">管理员Privileges可使用System Manager执行软件更新。</block>
   <block id="0a97d1300ce9361165541c64b6bd10b7" category="list-text">执行软件更新时、可以使用所需集群的管理员凭据。</block>
@@ -67,7 +58,6 @@
   <block id="8cb2d0d931dcf081c2e6cdb9235d0efa" category="list-text">节点不应采用MetroCluster配置。</block>
   <block id="2dc7ae12158353c62d51898b1414574d" category="summary">开始无缝快速地更新ONTAP存储系统。</block>
   <block id="53e01f87a36e506053f9d6c3a230df29" category="doc">快速开始使用BlueXP  软件更新ONTAP</block>
-  <block id="573c9d215bcc8c1dc02e08dfd5d679ec" category="paragraph">下面概述了开始使用BlueXP  软件更新所需的步骤。每个步骤中的链接将转到一个页面，其中提供了更多详细信息。</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一个</block>
   <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 查看前提条件</block>
   <block id="d73fd850784e1d8dbda69ab3ca51e7cf" category="inline-link-macro">确保您的环境满足这些要求</block>
@@ -87,7 +77,6 @@
   <block id="20d07d8fbe66f0a93aa19234a6281583" category="paragraph"><block ref="64ffd4ac1c7206890e581f7b5a3f2be9" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="b272f27e62779943682f53ea50ac3fd5" category="summary">查看有关BlueXP  软件更新的常见问题解答。</block>
   <block id="9f908c51aaf72b8fdb723584bba658d1" category="doc">BlueXP  软件更新的常见问题解答</block>
-  <block id="b1151aae9531d2f5e85d085e8878cea6" category="paragraph">如果您只是想快速了解问题解答，此常见问题解答会很有帮助。</block>
   <block id="e56ded8fd48409401c6fff468729d8a6" category="paragraph">*什么是BlueXP  软件更新URL？*</block>
   <block id="942a771213d3b59ba27960f61d97b1ac" category="inline-link"><block ref="942a771213d3b59ba27960f61d97b1ac" category="inline-link-rx"></block></block>
   <block id="97196dcbb301c06780e3699ce570a095" category="paragraph">对于URL、在浏览器中输入：<block ref="6db7b50bf17b27cbede9f07c4fbc973e" category="inline-link-rx"></block> 以访问BlueXP  控制台。</block>
@@ -102,8 +91,6 @@
   <block id="78a404dc6fcc27f5f6c067b96fa1a926" category="paragraph">要对所需集群执行ONTAP更新、您需要ONTAP集群IP和用于连接到集群的管理员凭据。在集群发现过程中、您需要提供这些详细信息、才能自动执行ONTAP更新。</block>
   <block id="eae99a51790faa39ba0454fb4f00a5b8" category="summary">使用BlueXP  软件更新无缝更新ONTAP存储系统、以利用新增功能和增强功能。</block>
   <block id="4a4ca306c87f7718653f5a8ebca8584c" category="doc">了解BlueXP  软件更新</block>
-  <block id="4baad46ac6519d24a604d0592262d3a2" category="paragraph">您可以使用BlueXP  软件更新来更新ONTAP存储系统、以利用新增功能和增强功能。这可以帮助您降低成本、加快关键工作负载的处理速度并提高安全性。</block>
-  <block id="140dd9258bb13766fefc6da02514ad8e" category="paragraph">通过BlueXP  软件更新服务、客户可以简化ONTAP更新。它可以自动执行评估、规划和执行流程。智能升级顾问可预测最适合特定环境的版本、并推荐用于修复问题、提高效率和提高系统安全性的版本、从而使客户能够确定满足其需求的最佳选项。然后、它会分发软件包并自动执行自动非分发升级(ANDU)、而不依赖于支持服务。</block>
   <block id="933247e0be7796a309cfa4c95bd34938" category="section-title">支持的系统</block>
   <block id="1a326a008d82e9276c86382d2622dbc4" category="section-title">ONTAP 系统</block>
   <block id="ce2747e858185215705d6b23a84eab2b" category="paragraph">只有当运行的是ONTAP 9.10或更高版本时、才能使用BlueXP  软件更新服务完成ONTAP更新。</block>
@@ -315,10 +302,7 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="bd10fd9cd73654d01bc6a7719a4f03c3" category="sidebar">BlueXP  软件更新文档</block>
   <block id="2b973f41c5b1f5465e41113e137d7a93" category="sidebar">使用BlueXP  软件更新</block>
-  <block id="c875e3d623333d854efa96be52543e6c" category="sidebar">选择ONTAP目标版本</block>
   <block id="49ec4b514e47d3aeca96090e2282a2b0" category="sidebar">修复ONTAP阻止程序并确认警告</block>
-  <block id="043756462732d85786f9ee8ff131baeb" category="sidebar">开始使用ONTAP更新</block>
-  <block id="cfa9378dd942a8238f797353b6dd5400" category="sidebar">了解ONTAP更新</block>
   <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">常见问题解答</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
@@ -337,4 +321,24 @@
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">将NSS凭据与您的BlueXP  组织相关联与与与BlueXP  用户登录相关联的NSS帐户不同。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">这些NSS凭据与您的特定BlueXP  组织ID相关联。属于BlueXP  组织的用户可以从*Support &gt; NSS Management*访问这些凭据。</block>
   <block id="cf3625b0846a5497dd36ab2220da602a" category="paragraph">详细了解 <block ref="4ef0c81e219f07a508ae115770245e4e" category="inline-link-macro-rx"></block>。</block>
+  <block id="dd1f3e550c5e2f4725c15954d3d7ea2d" category="doc">比较ONTAP版本、了解使用BlueXP  软件更新的优势和风险</block>
+  <block id="49d68f82813e1841cdc24205608d8fe2" category="paragraph">在更新存储系统的ONTAP版本之前、比较和了解与ONTAP目标版本相关的优势和风险非常重要。</block>
+  <block id="5555018124c02b21b3aaeedcef61f4fa" category="doc">在ONTAP升级之前、使用BlueXP  软件更新修复所有阻止程序</block>
+  <block id="db4b6d19a8d4d57e24b5828d0074143e" category="list-text">确定存储系统的ONTAP目标版本。有关确定ONTAP目标版本的信息，请参见 <block ref="0f2a258e8994f78c1b1f17d43a16c513" category="inline-link-macro-rx"></block>。</block>
+  <block id="396bf64c6d994d797cb5742c6758418b" category="doc">使用BlueXP  软件更新启动ONTAP更新</block>
+  <block id="0ae470cfcd6da9622bf1c34549a18b77" category="paragraph">确定ONTAP目标版本并修复并确认所有阻止程序后、您现在可以启动ONTAP存储系统更新。</block>
+  <block id="a4c20aefa4aa78b722a006d3390ac1cb" category="list-text">修复并确认ONTAP阻止程序。有关修复阻塞程序的信息，请参见 <block ref="6440b0843592ebb60c718c0b07809cb1" category="inline-link-macro-rx"></block>。</block>
+  <block id="5efd3bb225c7267020da770434ce3d85" category="paragraph">您可以使用BlueXP  软件更新来验证ONTAP更新的状态。</block>
+  <block id="937f4d5a34565b48f88d86bac89c78f6" category="doc">访问BlueXP  软件更新以更新ONTAP</block>
+  <block id="6c269860f7beec4d28cbb4c480aec401" category="paragraph">要访问BlueXP  软件更新、必须登录到BlueXP 。</block>
+  <block id="257d03ea2eed4050a6e348b424d61c43" category="paragraph">要登录、您可以使用NetApp支持站点凭据、也可以使用电子邮件和密码注册NetApp云登录帐户。<block ref="b81c2771e4fb9546e28e2b4e920d2ca5" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="61f62682b36d6aec10d0e3fdf7b80a02" category="doc">准备使用BlueXP  软件更新来更新ONTAP</block>
+  <block id="ceef21d867cd560c99b829957ac7c4ef" category="paragraph">在继续进行ONTAP更新之前、您应查看前提条件和要求。您可以使用BlueXP  软件更新来验证您的操作环境、登录、网络访问和Web浏览器是否就绪。</block>
+  <block id="b9055b7fdf4830bba7903d1ea2d1fec7" category="paragraph">下面概述了快速开始使用BlueXP  软件更新所需的步骤。每个步骤中的链接将转到一个页面，其中提供了更多详细信息。</block>
+  <block id="69f33badbace6451069f5a11aff02d64" category="paragraph">如果您想了解有关BlueXP  软件更新的更多信息或需要任何故障排除帮助、可以查看这些问题以获得快速解答。</block>
+  <block id="630082988db3654341e1bbfe1473ff34" category="paragraph">您可以使用BlueXP  软件更新服务帮助客户简化ONTAP更新。这可以帮助您降低成本、加快关键工作负载的处理速度并提高安全性。</block>
+  <block id="4bab70d11b4cca2a35de48f534070ddc" category="paragraph">BlueXP  软件更新服务可自动执行评估、规划和执行流程。智能升级顾问可预测最适合特定环境的版本、并推荐用于修复问题、提高效率和提高系统安全性的版本、从而使客户能够确定满足其需求的最佳选项。然后、它会分发软件包并自动执行自动非分发升级(ANDU)、而不依赖于支持服务。</block>
+  <block id="dcfbeb8f1660c404fb401cb23dc4a928" category="sidebar">比较ONTAP版本以了解更新的优势和风险</block>
+  <block id="4b826e35792ea987dc5df57d49d94c3e" category="sidebar">启动ONTAP存储系统更新</block>
+  <block id="c979f283726214fd17da9716a48f78f0" category="sidebar">开始使用BlueXP  软件更新</block>
 </blocks>

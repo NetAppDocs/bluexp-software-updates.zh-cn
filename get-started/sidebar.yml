@@ -1,8 +1,8 @@
 ---
 section: get-started
-title: 开始使用ONTAP更新
+title: 开始使用BlueXP  软件更新
 entries:
-- title: 了解ONTAP更新
+- title: 了解BlueXP  软件更新
   url: "/get-started/software-updates.html"
 - title: 前提条件
   url: "/get-started/prerequisites-ontap-update.html"
