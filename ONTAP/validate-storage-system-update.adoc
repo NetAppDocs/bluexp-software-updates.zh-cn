@@ -13,6 +13,9 @@ summary: 验证ONTAP更新的状态以确定应执行的后续步骤。
 [role="lead"]
 您可以使用BlueXP  软件更新来验证ONTAP更新的状态。
 
+.所需的BlueXP角色：
+组织管理员、文件夹或项目管理员、存储管理员、存储查看器或系统健康专家。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解 BlueXP 访问角色。"^]
+
 .步骤
 . 从BlueXP  左侧导航栏中，选择*运行状况>软件更新*。
 . 单击*History*选项卡可查看ONTAP更新的状态。

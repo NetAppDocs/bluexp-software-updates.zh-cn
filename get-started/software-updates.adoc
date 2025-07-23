@@ -13,6 +13,9 @@ summary: 使用BlueXP  软件更新无缝更新ONTAP存储系统、以利用新
 [role="lead"]
 您可以使用BlueXP  软件更新服务帮助客户简化ONTAP更新。这可以帮助您降低成本、加快关键工作负载的处理速度并提高安全性。
 
+.所需的BlueXP角色：
+组织管理员、文件夹或项目管理员、存储管理员、存储查看器或系统健康专家。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解 BlueXP 访问角色。"^]
+
 BlueXP  软件更新服务可自动执行评估、规划和执行流程。智能升级顾问可预测最适合特定环境的版本、并推荐用于修复问题、提高效率和提高系统安全性的版本、从而使客户能够确定满足其需求的最佳选项。然后、它会分发软件包并自动执行自动非分发升级(ANDU)、而不依赖于支持服务。
 
 

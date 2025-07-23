@@ -13,11 +13,12 @@ summary: 继续ONTAP更新之前、请查看前提条件和要求。
 [role="lead"]
 在继续进行ONTAP更新之前、您应查看前提条件和要求。您可以使用BlueXP  软件更新来验证您的操作环境、登录、网络访问和Web浏览器是否就绪。
 
+.所需的BlueXP角色：
+组织管理员、文件夹或项目管理员、存储管理员、存储查看器或系统健康专家。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解 BlueXP 访问角色。"^]
+
 要使用BlueXP  软件更新、应确保您的环境满足所有要求。
 
-* BlueXP  组织可用。
 * 在BlueXP  中设置工作环境。
-* 管理员Privileges可使用System Manager执行软件更新。
 * 执行软件更新时、可以使用所需集群的管理员凭据。
 * 集群中的所有节点都在发送AutoSupport数据。
 * 所有节点都应运行ONTAP 9.10或更高版本。

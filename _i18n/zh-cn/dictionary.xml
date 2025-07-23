@@ -23,15 +23,10 @@
   <block id="7d73325ccb71b4870e81c3c8734ba56e" category="paragraph">确定ONTAP存储系统的ONTAP目标版本后、您应修复并确认所有阻止程序、并查看警告、然后再更新ONTAP存储系统。</block>
   <block id="2458f462c36fbeec4b6536099135f298" category="paragraph">必须修复并确认所有阻止程序、以确保软件更新过程无缝。</block>
   <block id="a710a4a4b33a19ce9678b290e8622101" category="paragraph">此时将显示需要软件更新的集群列表。</block>
-  <block id="06cd15ffbdad395f54961af4b4da3f7d" category="list-text">确定ONTAP目标版本后，单击*准备更新*以启动更新过程。</block>
   <block id="921328cf9f5d7f1029ee8f2b5eb6add6" category="paragraph">此时将显示阻止程序和警告列表。</block>
   <block id="0d3e45ea704fa7abdf905562392b0203" category="list-text">选择阻止程序以查看修复阻止程序的说明。</block>
   <block id="8aa655b81ac9a54174b8b2f3c0e078b3" category="list-text">手动执行提供的步骤以修复此阻止程序。</block>
-  <block id="dd65b396655e879f1cc555905f551ba9" category="list-text">选择已修复的阻止程序，然后单击*AcclN确认 选定*确认已修复该阻止程序。</block>
   <block id="deef003c349019061441ab60dd6ecf90" category="admonition">您必须修复并确认所有阻止程序才能继续更新。</block>
-  <block id="f00541528c969eb6abe8cce5f5281ccc" category="list-text">在继续软件更新之前，单击*警告*选项卡查看警告。</block>
-  <block id="3a49822934e3057e70050398c92aa888" category="list-text">单击*确认*选项卡以查看已修复的阻止程序。</block>
-  <block id="5143d195cc41390e0e4722e37a8b670d" category="list-text">单击*继续更新*以继续更新过程。</block>
   <block id="0fd40a88a795a27afa35dc3e7dbce97c" category="summary">更新ONTAP存储系统以利用新增功能和增强功能。</block>
   <block id="ef54c6082f1b8fb3ea432a9b7cdce377" category="doc">完成ONTAP存储系统更新</block>
   <block id="84159d0a25239d2d4573172d023c46e7" category="list-text">阅读并接受最终用户许可协议。</block>
@@ -51,7 +46,6 @@
   <block id="24958f1bc0c9e80abac7daea72c06854" category="list-text">从BlueXP  左侧导航栏中，选择*运行状况&gt;软件更新。*</block>
   <block id="20b41c007263bf3cb834352319595be6" category="summary">继续ONTAP更新之前、请查看前提条件和要求。</block>
   <block id="7efc4f28b854970100677afdf18e3743" category="paragraph">要使用BlueXP  软件更新、应确保您的环境满足所有要求。</block>
-  <block id="f79a5712ad4df34137efe352ad13262f" category="list-text">管理员Privileges可使用System Manager执行软件更新。</block>
   <block id="0a97d1300ce9361165541c64b6bd10b7" category="list-text">执行软件更新时、可以使用所需集群的管理员凭据。</block>
   <block id="b34cd7f587984e9b254885f6d8640801" category="list-text">集群中的所有节点都在发送AutoSupport数据。</block>
   <block id="27eb16a8f5038a8a66d0aec86d022bbd" category="list-text">所有节点都应运行ONTAP 9.10或更高版本。</block>
@@ -151,8 +145,6 @@
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">适用于 Google Cloud 的 Cloud Volumes Service</block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要获得针对BlueXP及其存储解决方案和服务的技术支持、请使用下面所述的支持选项。</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助支持选项</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天，每天 24 小时免费提供：</block>
@@ -308,7 +300,6 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
   <block id="e9286f8f31c5b4b57dc1c4b27396c2bf" category="paragraph">这是由于当前ONTAP版本以及BlueXP  Connector不适用于集群。BlueXP  Connector在BlueXP  中执行ONTAP更新、不需要您退出BlueXP  进行更新。如果您没有BlueXP  Connector、则会重定向到System Manager、并需要重新输入ONTAP集群凭据。有关不同ONTAP版本的ONTAP更新过程的信息，请参见 <block ref="9368a1ed7fc94ef1fa0dd54dc646113b" category="inline-link-macro-rx"></block>。</block>
-  <block id="7fd857a6ab8e5cb6d32815d3414ad1f1" category="list-text">BlueXP  组织可用。</block>
   <block id="6e3e90ee630b7faf0d6dad037bbd177a" category="list-text">在BlueXP  中设置工作环境。</block>
   <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">工作环境列表位于您在服务顶部横幅中选择的BlueXP  组织(或帐户)、项目(或工作空间)和连接器的范围内。</block>
   <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">注册BlueXP  帐户序列号(20位960xxxxxxxxx序列号位于BlueXP  的支持资源页面)。</block>
@@ -344,4 +335,20 @@
   <block id="f50a226c5a51111405309ae78236d95d" category="doc">已缓解风险</block>
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">现在、您可以在BlueXP  软件更新的摘要部分中查看操作系统更新可缓解的风险总数。这样、用户就可以评估其安装基础上的安全性和稳定性改进。</block>
   <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">2025年4月2日</block>
+  <block id="eb41c324559b969116f2a7d0e5a512c7" category="paragraph-title">所需的BlueXP角色：</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">了解 BlueXP 访问角色。</block>
+  <block id="4de48b1d25f387ca4892d8634f62973e" category="paragraph">组织管理员、文件夹或项目管理员、存储管理员或系统健康专家。 <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="0fdb0ceffdc4d2d2cdb1f927a8e4bbe5" category="list-text">选择*开始更新*以启动更新过程。</block>
+  <block id="33ba4cda6895a31680b2de36d86dab15" category="list-text">确定ONTAP目标版本后，选择“准备更新”以启动更新过程。</block>
+  <block id="6a9157b81110d193ae9726acd434a73b" category="list-text">选择已修复的阻止程序，然后选择*确认选择*以确认该阻止程序已被修复。</block>
+  <block id="f1bceb312606e73e3fc3cb05ba0db012" category="list-text">在继续软件更新之前，选择“*警告*”选项卡来查看警告。</block>
+  <block id="185674eb1bcbdcee59090d2a4854c5bd" category="list-text">选择“*确认*”选项卡来查看已修复的阻止程序。</block>
+  <block id="46ab049c063b4859793fe4d01b477a97" category="list-text">选择*继续更新*以继续更新过程。</block>
+  <block id="b6f64caf7d0bc5014c5dc5b478d3b150" category="paragraph">组织管理员、文件夹或项目管理员、存储管理员、存储查看器或系统健康专家。 <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="1da5a40083bd16c3443e7eda42875506" category="doc">需要 BlueXP 访问角色</block>
+  <block id="53dafb5a873d00157d780f773c016fed" category="paragraph">您现在需要以下访问角色之一来安装软件更新：*组织管理员*、*文件夹或项目管理员*、*存储管理员*、*存储查看者*或*存储运行状况专家*。具有存储查看者角色的用户拥有与软件更新相关的各种权限，但无法安装软件更新。 <block ref="5f4605f8f9a6dca73fc40e564cf6fcbc" category="inline-link-macro-rx"></block></block>
+  <block id="0a7ea76c19ce14ea769fa96b38086400" category="paragraph">您还需要拥有以下访问角色之一：组织管理员、文件夹或项目管理员或存储管理员。</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025年5月12日</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp卷</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
 </blocks>
